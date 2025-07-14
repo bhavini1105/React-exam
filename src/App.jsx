@@ -6,16 +6,15 @@ import ReservationForm from "./components/ReservationForm";
 import ReservationList from "./components/ReservationList";
 import SignIn from "./components/SignIn";
 
-
 function App() {
   return (
     <>
-    <Routes>
-      <Navbar />
+      <Navbar /> 
+      <Routes>
+        <Route path="/" element={<SignIn />} />
         <Route path="/rooms" element={<RoomList />} />
-        <Route path="/reserve" element={<ReservationForm /> }/>
+        <Route path="/reserve" element={<ReservationForm />} />
         <Route path="/list" element={<ReservationList />} />
-        <Route path="/" element={<SignIn/>} />
       </Routes>
     </>
   );

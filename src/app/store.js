@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import hotelReducer from '../features/slice'
+import hotelReducer from "../features/slice";
 
 const store = configureStore({
-    reducer : hotelReducer,
+  reducer: {
+    hotel: hotelReducer, 
+  },
 });
-
 
 export default store;

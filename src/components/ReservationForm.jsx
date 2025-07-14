@@ -1,7 +1,7 @@
-// components/ReservationForm.jsx
+
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { makeReservation } from "../redux/thunks";
+import { makeReservation } from "../features/thunk";
 
 export default function ReservationForm() {
   const [roomId, setRoomId] = useState("");
