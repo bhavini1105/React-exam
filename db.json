@@ -1,0 +1,7 @@
+{
+     "rooms": [
+    { "id": 1, "type": "Deluxe", "available": true, "price": 2500 },
+    { "id": 2, "type": "Standard", "available": true, "price": 1500 }
+  ],
+  "reservations": []
+}
