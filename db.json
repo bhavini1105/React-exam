@@ -1,7 +1,17 @@
 {
-     "rooms": [
-    { "id": 1, "type": "Deluxe", "available": true, "price": 2500 },
-    { "id": 2, "type": "Standard", "available": true, "price": 1500 }
+  "rooms": [
+    {
+      "id": "1",
+      "type": "Deluxe",
+      "features": "AC, TV, WiFi",
+      "available": true
+    },
+    {
+      "id": "2",
+      "type": "Standard",
+      "features": "Fan, TV",
+      "available": true
+    }
   ],
   "reservations": []
 }

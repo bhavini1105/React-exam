@@ -1,4 +1,3 @@
-// redux/thunks.js
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -8,7 +7,7 @@ const API = "http://localhost:3001";
 export const fetchRooms = createAsyncThunk("hotel/fetchRooms", async () => {
   const res = await axios.get(`${API}/rooms`);
   return res.data;
-});
+}); 
 
 
 export const fetchReservations = createAsyncThunk(
